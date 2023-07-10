@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+  .foot2Container {
+    display: none;
+  }
+}
+
+.foot2colContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0;
+  background-color: #ebbe00;
+}
+
+.foot2Col {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.foot2Col > a {
+  width: fit-content;
+  line-height: 2rem;
+  color: #000;
+  text-decoration: none;
+}

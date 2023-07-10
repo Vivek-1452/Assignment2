@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import { Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { useEffect } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./components/home";
 
 function App() {
+  const [display, setdisplay] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth < 769) {
+      setdisplay(true);
+    }
+  }, [display]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App p-0">
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

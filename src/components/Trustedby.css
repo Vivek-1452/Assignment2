@@ -1,0 +1,69 @@
+.logo-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 120px;
+  overflow-x: hidden;
+}
+
+.logo-wrapper {
+  display: flex;
+  animation: scroll 32s linear infinite;
+  flex-wrap: nowrap;
+
+  flex-shrink: 0;
+  gap: 0.1rem;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 100%;
+}
+
+.logo-item {
+  margin-right: 40px;
+  margin-left: 40px;
+  aspect-ratio: auto 146 / 73;
+}
+
+/* Hide the horizontal scrollbar */
+.logo-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-190%);
+  }
+}
+
+.trustedby {
+  min-width: 1200px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .trustedby {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  .trustText > h3 {
+    font-size: 20px !important;
+  }
+}
+
+.trustSubCon {
+  background-color: #fddc00;
+}
+
+.trustText > h3 {
+  font-weight: bold;
+  color: black;
+}
+
+.getStarted {
+  color: #ffffff !important;
+  background-color: #ee3425 !important;
+}

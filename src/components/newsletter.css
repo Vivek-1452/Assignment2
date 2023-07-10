@@ -1,0 +1,134 @@
+.curveContainer2 {
+  min-width: 1200px;
+  background-color: #fbdc00;
+}
+
+.curveSub2 {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 18px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 0%;
+  border-top-left-radius: 0%;
+}
+
+@media (max-width: 767px) {
+  /* .curveSub2 {
+    height: 40px;
+  } */
+
+  .curveContainer2 {
+    width: 100%;
+    min-width: 0px !important;
+  }
+
+  .subText {
+    font-size: 20px !important;
+  }
+
+  .subText2 {
+    text-align: center !important;
+    padding: 0 10px;
+  }
+
+  .newsformCon {
+    padding: 0 10px;
+  }
+
+  .newsForm {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .newsimgCon {
+    display: none !important;
+  }
+
+  .newsInput {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .newsSubmit {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.newsContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 120px; */
+  margin-top: 20px;
+  background-color: #fbdc00;
+}
+
+.newsimgCon {
+  width: 20%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.newsImg {
+  width: 100%;
+  height: 100%;
+}
+
+.subText {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.subText2 {
+  text-align: start;
+}
+
+.newsformCon {
+  margin-top: 20px;
+}
+
+.newsForm {
+  display: flex;
+}
+
+.newsInput {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+
+.newsSubmit {
+  color: #fff !important;
+  background-color: #ee3425;
+  border: 1px solid #ee3425;
+  width: 120px !important;
+  height: 40px !important;
+  text-align: center;
+  text-decoration: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.rightLongArr {
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.copyRight {
+  padding: 8px 30px;
+}
+
+.copyIcons {
+  padding-left: 5px;
+  padding-right: 5px;
+}

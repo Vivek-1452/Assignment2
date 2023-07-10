@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+  .footMob {
+    display: none !important;
+  }
+}
+
+.footMob {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: var(--font-family);
+  background: #fbdc00;
+}
+
+.footDrop {
+  padding: 16px 0 0;
+  overflow-y: scroll;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.footButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 0.5px solid black;
+}
+
+.footleftText {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 16px 16px;
+  margin: 0;
+}
+
+.footrightText {
+  margin-right: 16px;
+}
+
+.footHidden {
+  background-color: #ffec64;
+  text-align: start !important;
+  padding: 20px 16px 0 16px;
+}
+
+.foothidText > h5,
+.foothidText > h6 {
+  font-size: 16px !important;
+}
+
+.foothidText > h5 {
+  color: #ee3425 !important;
+}
+
+.rightAr {
+  margin-bottom: 8px !important;
+}
+
+.downAr {
+  width: 15px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .navMob {
+    display: block !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    margin-top: 50px;
+  }
+}

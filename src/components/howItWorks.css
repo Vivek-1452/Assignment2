@@ -1,0 +1,136 @@
+.howitworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 16px;
+}
+
+.maincard > .card-body {
+  text-align: start;
+}
+
+/* .howitheading {
+  margin-bottom: 20px;
+} */
+
+.howitbtns {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.howitbtns {
+  display: flex;
+  justify-content: space-between;
+}
+.howbtns {
+  width: 200px;
+  padding: 20px;
+  margin: 0 20px;
+  color: #000 !important;
+  border-radius: 20px;
+  min-width: 72px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: none;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.active-btn {
+  background-color: #fbdc00;
+  border: #fbdc00;
+}
+
+.cardname {
+  font-weight: 600;
+  color: #ee3425;
+}
+
+.cardsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  list-style-position: outside;
+  padding: 0 0 10px;
+}
+
+.cardhead {
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.carddes {
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.maincard {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169, 188, 218, 0.65);
+  margin-bottom: 60px;
+}
+
+.flexsection1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.leftcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 100%;
+}
+
+.mobilesection {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .howitworks {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .howitworks {
+    width: 100% !important;
+  }
+
+  .howitbtns {
+    display: flex;
+    flex-direction: column;
+  }
+  .howbtns {
+    margin-bottom: 10px;
+  }
+  .mobilesection {
+    display: block !important;
+  }
+  .flexsection1 {
+    display: none;
+  }
+  .maincard {
+    width: 100%;
+  }
+}
+
+/* .rightTopPic {
+  top: 100px;
+  right: 0px;
+} */

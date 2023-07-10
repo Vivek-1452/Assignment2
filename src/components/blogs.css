@@ -1,0 +1,128 @@
+.blogContainer {
+  padding: 16px;
+}
+
+.blogTitle {
+  margin-bottom: 20px;
+}
+
+.blogCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogPic {
+  width: 350px;
+  height: 200px;
+}
+
+.blogCard {
+  width: calc(calc(100% / 3) - 20px);
+  margin-right: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-align: start;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px hsla(0, 0%, 79%, 0.5);
+}
+
+.blogPic {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.blogText {
+  padding: 10px 16px;
+}
+
+.blogEnd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogCard > a {
+  text-decoration: none;
+}
+
+.blogText1 {
+  margin-bottom: 5px;
+  font-size: 16px !important;
+  font-weight: bold;
+  color: #ee3425;
+}
+
+.blogText2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.blogText3 {
+  color: #000;
+}
+
+.blogMore,
+.blogDate {
+  font-size: 14px;
+}
+
+.blogMore {
+  color: #ee3425;
+}
+
+.blogDate {
+  font-weight: bold;
+  color: #9a9a9a;
+}
+
+@media (max-width: 767px) {
+  .viewBlogs {
+    width: 100% !important;
+  }
+
+  .blogCard {
+    width: auto;
+  }
+
+  /* Important */
+  .blogContainer {
+    width: 100% !important;
+  }
+}
+
+/* Most important styling */
+.blogContainer {
+  width: 1200px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.viewblogButton {
+  background-color: #ee3425;
+  border: 1px solid #ee3425;
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 72px;
+  height: 36px;
+  padding: 8px 42px;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+}
+
+.viewBlogs {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.rightLongArrBlog {
+  color: #ee3425;
+}
