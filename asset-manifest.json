@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Assignment2/static/css/main.d24560ac.css",
+    "main.js": "/Assignment2/static/js/main.1b58b99f.js",
+    "static/js/787.91e01bda.chunk.js": "/Assignment2/static/js/787.91e01bda.chunk.js",
+    "static/media/logo.svg": "/Assignment2/static/media/logo.64cebbb2558edbe902abf204ae5f6b40.svg",
+    "static/media/howIcon4.svg": "/Assignment2/static/media/howIcon4.27fcd18a3085ffa6238dfe93cfdcdf5a.svg",
+    "static/media/howIcon3.svg": "/Assignment2/static/media/howIcon3.e1d0afcc8e6caea23301507d405ef53b.svg",
+    "static/media/happyface.svg": "/Assignment2/static/media/happyface.f889f8b88c6bb4705f1248f47a65c0f4.svg",
+    "static/media/insta.svg": "/Assignment2/static/media/insta.31f9817f01bf73b9e0bf79b591bac6bc.svg",
+    "static/media/whatsappIcon.svg": "/Assignment2/static/media/whatsappIcon.0e46472bc01765570983fbd82656a040.svg",
+    "index.html": "/Assignment2/index.html",
+    "static/media/howIcon2.svg": "/Assignment2/static/media/howIcon2.7797d66cdf6c66dd4ca6c4166d175189.svg",
+    "static/media/howIcon1.svg": "/Assignment2/static/media/howIcon1.acc4c6b700d3ad6a1c2ac8f5eb567419.svg",
+    "static/media/navToggleIcon.svg": "/Assignment2/static/media/navToggleIcon.56749d44f003827d3fc96414e49598d3.svg",
+    "static/media/linkedin.svg": "/Assignment2/static/media/linkedin.45950cee4671d03fdd97eae90bd4138b.svg",
+    "static/media/navToggleCross.svg": "/Assignment2/static/media/navToggleCross.670b603d54034fcc478a8255cbd6a795.svg",
+    "static/media/rightLongArr.svg": "/Assignment2/static/media/rightLongArr.8710aa0ead3e76edcd561af653d1c13d.svg",
+    "static/media/rightLongArrBlog.svg": "/Assignment2/static/media/rightLongArrBlog.1278446ca618f8faeb864b14e656963e.svg",
+    "static/media/fb.svg": "/Assignment2/static/media/fb.6cfe463382f9359728a50364f75fb8d0.svg",
+    "static/media/rightarrowGS.svg": "/Assignment2/static/media/rightarrowGS.27634728cbc96512a7b7ade3507817e3.svg",
+    "static/media/downCopyArrow.svg": "/Assignment2/static/media/downCopyArrow.fafaf369b8b7605e7c9ab7a18e4d7674.svg",
+    "static/media/rightarrow.svg": "/Assignment2/static/media/rightarrow.4b4656d2bbf926136fbced1af5fa6dbb.svg",
+    "main.d24560ac.css.map": "/Assignment2/static/css/main.d24560ac.css.map",
+    "main.1b58b99f.js.map": "/Assignment2/static/js/main.1b58b99f.js.map",
+    "787.91e01bda.chunk.js.map": "/Assignment2/static/js/787.91e01bda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d24560ac.css",
+    "static/js/main.1b58b99f.js"
+  ]
+}
