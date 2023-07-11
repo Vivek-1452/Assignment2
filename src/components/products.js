@@ -1,5 +1,7 @@
 import React from "react";
 import "./products.css";
+import rightLongArr from "./Logos/rightLongArrBlog.svg";
+import oceanFCL from "./Logos/oceanFCL.svg";
 
 function Products() {
   return (
@@ -36,54 +38,58 @@ function Products() {
               <div className="prodCol">
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h5 className="prodTitle">Ocean: FCL</h5>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
               </div>
@@ -94,28 +100,30 @@ function Products() {
               <div className="prodCol">
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h5 className="prodTitle">Ocean: FCL</h5>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
               </div>
@@ -126,54 +134,58 @@ function Products() {
               <div className="prodCol">
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h5 className="prodTitle">Ocean: FCL</h5>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
               </div>
@@ -184,28 +196,30 @@ function Products() {
               <div className="prodCol">
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h5 className="prodTitle">Ocean: FCL</h5>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
               </div>
@@ -216,54 +230,58 @@ function Products() {
               <div className="prodCol">
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h5 className="prodTitle">Ocean: FCL</h5>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
                 <a href="null">
                   <div className="card prodCard">
-                    <img
-                      className="prodPic"
-                      src="https://www.cogoport.com/images/manufactoring.svg"
-                      width="62"
-                      height="62"
-                      alt="Ocean"
-                    />
+                    <img className="prodPic" src={oceanFCL} alt="Ocean" />
                     <h6 className="prodTitle">Ocean: FCL</h6>
-                    <h6 className="prodMore">Find out more --</h6>
+                    <h6 className="prodMore">
+                      Find out more{" "}
+                      <img
+                        className="rightLongArrBlog"
+                        src={rightLongArr}
+                        alt="--"
+                      />
+                    </h6>
                   </div>
                 </a>
               </div>
