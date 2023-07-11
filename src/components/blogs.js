@@ -40,6 +40,7 @@ function Blogs() {
               </div>
             </a>
           </div>
+
           <div className="card blogCard">
             <a href="null">
               <img
