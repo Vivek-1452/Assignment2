@@ -1,0 +1,4 @@
+I couldn't add animations for the sidebar which shows upon clicking the hamburger icon in mobile view of "navbar".
+I was unable to make the count to start from zero when the page loads in the "count" section which is just beneath the homepage poster section.
+I couldn't add video part which is just above the "blogs" section.
+I failed to attach images on the corners of macBook image which is in "HowItWorks" section.
